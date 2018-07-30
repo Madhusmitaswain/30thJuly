@@ -3,9 +3,19 @@ package com.app.model;
 public class Demo {
 
 	private int name ;
-	private String nameww;;
+	private String nameww;
+	private double sal;
+	
 
 	
+	public double getSal() {
+		return sal;
+	}
+
+	public void setSal(double sal) {
+		this.sal = sal;
+	}
+
 	public String getNameww() {
 		return nameww;
 	}
